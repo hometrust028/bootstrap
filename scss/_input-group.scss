@@ -139,6 +139,12 @@
   @include border-radius($input-border-radius-lg);
 }
 
+.input-group-lg > .input-group-prepend > .btn,
+.input-group-lg > .input-group-append > .btn {
+  padding-right: $btn-padding-x-lg;
+  padding-left: $btn-padding-x-lg;
+}
+
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
@@ -149,6 +155,12 @@
   font-size: $font-size-sm;
   line-height: $input-line-height-sm;
   @include border-radius($input-border-radius-sm);
+}
+
+.input-group-sm > .input-group-prepend > .btn,
+.input-group-sm > .input-group-append > .btn {
+  padding-right: $btn-padding-x-sm;
+  padding-left: $btn-padding-x-sm;
 }
 
 
